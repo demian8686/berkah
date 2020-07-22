@@ -1,2 +1,1 @@
-# abuabu
-script auto claim voucher + setpin
+BERKAH ECA & DEMIAN
