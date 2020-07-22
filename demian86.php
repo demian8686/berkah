@@ -8,13 +8,13 @@ echo
 echo "\e[37;1m*************** \e[93mECA\e[37;1m ***************   \n";
 echo "\e[37;1m****************** \e[93mPUTRI\e[37;1m ******************\n";
 echo "\e[37;1m********************* \e[93mMAHEZA\e[37;1m *********************\n";
-echo "\e[37;1m*************** \e[93mM DEMIAN P\e[37;1m **************\n";
+echo "\e[37;1m*************** \e[93minstagram : @dzainvina\e[37;1m **************\n";
 echo "\e[37;1m****** \e[93mJANGAN LUPA BERDOA BIAR BERKAH\e[37;1m *******\n";
 echo "\e[32;1m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
 echo "\e[31;1m    || >>>>>>>>\e[1;33m".date('[d-m-Y] [H:i:s]')."\e[31;1m<<<<<<<< ||\n";
 echo "\e[32;1m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
 echo "\e[32;1m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
-echo "\e[31;1m*•*•*•*•*•*•*•*•*•*•\e[93mBISMILAH\e[31;1m•*•*•*•*•*•*•*•*•*•*\n";
+echo "\e[31;1m*•*•*•*•*•*•*•*•*•*•\e[93mM_DEMIAN_P\e[31;1m•*•*•*•*•*•*•*•*•*•*\n";
 echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[93m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
 echo "\e[93m Sudah Punya User Id (Y/N ?: ";	
@@ -50,7 +50,7 @@ goto login;
 	return rtrim( $input, "\n" );
 ulang:
 echo "\n";
-echo "\e[93m ( M_DEMIAN_P $input)        \n";
+echo "\e[93m ( @MERZA_SAPUTRA1705 $input)        \n";
 echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 // function change(){
         $nama = nama();
@@ -94,8 +94,8 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("white","+] TOKEN ID : ".$token."\n\n");
         save("token.txt",$token);
-        echo color("red","\n▬▬▬▬▬▬▬▬▬▬▬▬* JANGAN LUPA BERDOA *▬▬▬▬▬▬▬▬▬▬▬▬");
-       echo "\n".color("purple","# CLAIM VOUCHER ECA");
+        echo color("red","\n▬▬▬▬▬▬▬▬▬▬▬▬* JANGAN LUPA BASMALAH *▬▬▬▬▬▬▬▬▬▬▬▬");
+       echo "\n".color("purple","# CLAIM VOUCHER JANDA MUDA");
         echo "\n".color("blue","# SEGER BANGET ");
         for($a=1;$a<=3;$a++){
         echo color("purple",".");
@@ -109,7 +109,7 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
         }else{
         echo "\n".color("red","🔐▶️ Message: ".$message);
 	      gocar:
-        echo "\n".color("green","# CLAIM VOUCHER PUTRI");
+        echo "\n".color("green","# CLAIM VOUCHER ISTRI PERTAMA");
         echo "\n".color("white","# LAGI DI GOYANG ");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -123,8 +123,8 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
         }else{
         echo "\n".color("red","🔐▶️ Message: ".$message);
         gofood:
-        echo "\n".color("white","# CLAIM VOUCHER MAHEZA");
-        echo "\n".color("green","#SEMOGA BERUNTUNG");
+        echo "\n".color("white","# CLAIM VOUCHER ISTRI KEDUA");
+        echo "\n".color("green","#LAGI ENAK COY");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(10);
@@ -132,8 +132,8 @@ echo "\e[32;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD2107"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("white","🔓▶️ Message: ".$message);
-        echo "\n".color("yellow","# CLAIM VOUCHER DEMIAN");
-        echo "\n".color("white","# AMIN");
+        echo "\n".color("yellow","# CLAIM VOUCHER ISTRI KETIGA");
+        echo "\n".color("white","# JANGAN GANGGU LAGI ENAK");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(5);
